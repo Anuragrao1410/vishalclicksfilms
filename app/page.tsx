@@ -1,3 +1,5 @@
+import Footer from "../components/Footer";
+import Contact from "../components/Contact";
 import Services from "../components/Services";
 import About from "../components/About";
 import Portfolio from "../components/Portfolio";
@@ -9,7 +11,7 @@ export default function Home() {
       <Navbar />
 
       {/* Hero Section */}
-      <main className="relative min-h-screen">
+      <main id="home" className="relative min-h-screen">
 
   {/* Background Image */}
   <Image
@@ -32,24 +34,24 @@ export default function Home() {
         Wedding • Pre-Wedding • Events
       </p>
 
-      <h1 className="text-6xl md:text-7xl font-extrabold">
+      <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight">
         Capturing
         <br />
         Timeless Memories
       </h1>
 
-      <p className="mt-8 text-xl text-gray-200">
+     <p className="mt-6 md:mt-8 text-base sm:text-lg md:text-xl text-gray-200">
         Premium Photography & Cinematic Films
         that tell your story.
       </p>
 
-      <div className="mt-10 flex justify-center gap-6">
+   <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
 
-        <button className="bg-yellow-500 hover:bg-yellow-600 text-black px-8 py-3 rounded-full font-semibold transition">
+        <button className="w-full sm:w-auto bg-yellow-500 hover:bg-yellow-600 text-black px-8 py-3 rounded-full font-semibold transition">
           Book Now
         </button>
 
-        <button className="border border-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition">
+       <button className="w-full sm:w-auto border border-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition">
           View Portfolio
         </button>
 
@@ -62,6 +64,8 @@ export default function Home() {
 <Portfolio />
 <About />
 <Services />
+<Contact />
+<Footer/>
     </>
   );
 }

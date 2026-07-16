@@ -22,11 +22,11 @@ export default function Portfolio() {
           Every frame tells a beautiful story.
         </p>
 
-        <div className="grid md:grid-cols-3 gap-8">
+       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
           {portfolioItems.map((item, index) => (
             <div
               key={index}
-              className="group relative h-80 rounded-2xl overflow-hidden cursor-pointer shadow-xl"
+              className="group relative h-72 sm:h-80 rounded-2xl overflow-hidden cursor-pointer shadow-xl"
             >
               {/* Background Image */}
               <Image
