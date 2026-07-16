@@ -16,6 +16,7 @@ export default function Footer() {
           </div>
 
           <div className="flex gap-6 text-gray-400">
+
             <a href="#home" className="hover:text-yellow-400 transition">
               Home
             </a>
@@ -27,6 +28,25 @@ export default function Footer() {
             <a href="#contact" className="hover:text-yellow-400 transition">
               Contact
             </a>
+
+            <a
+              href="https://instagram.com/vishal.clicks.films"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-yellow-400 transition"
+            >
+              Instagram
+            </a>
+
+            <a
+              href="https://wa.me/919555789221"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-yellow-400 transition"
+            >
+              WhatsApp
+            </a>
+
           </div>
 
         </div>

@@ -47,13 +47,19 @@ export default function Home() {
 
    <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
 
-        <button className="w-full sm:w-auto bg-yellow-500 hover:bg-yellow-600 text-black px-8 py-3 rounded-full font-semibold transition">
-          Book Now
-        </button>
+        <a
+  href="#contact"
+  className="bg-yellow-500 hover:bg-yellow-600 text-black px-8 py-3 rounded-full font-semibold transition inline-block"
+>
+  Book Now
+</a>
 
-       <button className="w-full sm:w-auto border border-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition">
-          View Portfolio
-        </button>
+       <a
+  href="#portfolio"
+  className="border border-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition inline-block"
+>
+  View Portfolio
+</a>
 
       </div>
 
