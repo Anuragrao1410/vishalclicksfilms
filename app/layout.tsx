@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "Vishal Clicks Films captures weddings, pre-weddings, events, portraits and special moments through premium photography and cinematic films.",
 verification: {
-    google :<meta name="google-site-verification" content="3akfl46QSYVXRVRC9yQch9IhpUbISRMfZ2Au_IPfiCA" />
+    google :"3akfl46QSYVXRVRC9yQch9IhpUbISRMfZ2Au_IPfiCA" 
 }
   };
 
